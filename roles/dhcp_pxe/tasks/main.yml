@@ -4,6 +4,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       guest_id: "rhel7_64Guest"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"
@@ -28,6 +29,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       guest_id: "rhel7_64Guest"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"
@@ -53,6 +55,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       guest_id: "rhel7_64Guest"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"

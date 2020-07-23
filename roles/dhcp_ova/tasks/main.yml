@@ -16,6 +16,7 @@
       username: "{{ vcenter.admin_username }}"
       password: "{{ vcenter.admin_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       datastore: "{{ vcenter.datastore }}"
       folder: "{{ vcenter.folder_absolute_path }}"
       name: '{{ vcenter.template_name }}'
@@ -54,6 +55,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"
       name: "{{ item.name }}"
@@ -82,6 +84,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"
       name: "{{ item.name }}"
@@ -110,6 +113,7 @@
       username: "{{ vcenter.service_account_username }}"
       password: "{{ vcenter.service_account_password }}"
       datacenter: "{{ vcenter.datacenter }}"
+      cluster: "{{ vcenter.cluster}}"
       validate_certs: no
       folder: "{{ vcenter.folder_absolute_path }}"
       name: "{{ item.name }}"
